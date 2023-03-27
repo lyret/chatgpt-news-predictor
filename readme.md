@@ -1,4 +1,4 @@
-# Tomorrows News, Today!
+# Tomorrow's News, Today!
 
 ## A ChatGPT news predictor
 
@@ -21,6 +21,10 @@ This is run as a CRON job 08:30 AM everyday.
 
 You can sign up for the newsletter at [news.lyresten.se](https://news.lyresten.se).
 
+## Background and motivation
+
+Like everybody else I been thinking and tinkering a lot with ChatGPT, and I wanted to produce something tangible. One idea that I been thinking about for interesting integrations is having ChatGPT being the one contacting you. Hope you'll find this inspiring.
+
 ## Development
 
 1. Install dependencies
@@ -32,3 +36,6 @@ You can sign up for the newsletter at [news.lyresten.se](https://news.lyresten.s
 3. Test the service
 
    `node index.mjs test <your@email.address>`
+
+Enjoy ❤️
+Lyret
