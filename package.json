@@ -1,0 +1,16 @@
+{
+  "name": "chatgpt-news-predictor",
+  "private": true,
+  "main": "index.mjs",
+  "author": "Viktor Lyresten <viktor@lyresten.es>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@extractus/feed-extractor": "^6.2.1",
+    "chatgpt": "^5.1.2",
+    "commander": "^10.0.0",
+    "dayjs": "^1.11.7",
+    "dotenv": "^16.0.3",
+    "node-schedule": "^2.1.1",
+    "nodemailer": "^6.9.1"
+  }
+}
