@@ -6,14 +6,14 @@
 
 _note: all news-sources, prompt, and text material are in Swedish, documentation in english_
 
-This is a small example program that shows how prompt engineering can be done using the ChatGPT API and external text sources.
+This is a small example program that shows how prompt engineering can be done using the ChatGPT API and external text sources. Every day ChatGPT generates the news headlines for the following day, by continuing the events of the current day.
 
 It works the following way
 
 - It fetches news headlines from the RSS feed of The Swedish television bureau, SVT.
-- These headlines are used to generate a prompt for ChatGTP where future events will be predicted
-- ChatGPT responds with news headlines for tomorrow
-- Newsletter subscribers are fetched from published google spreadsheet document and emailed
+- These headlines are used to generate a prompt for ChatGTP where future events will be predicted.
+- ChatGPT responds with news headlines for tomorrow, from which a newsletter email is created.
+- Lastly email subscribers are fetched from a google spreadsheet document, and are sent the newly created newspapper.
 
 This is run as a CRON job 07:30 AM everyday.
 
