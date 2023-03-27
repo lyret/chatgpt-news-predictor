@@ -18,7 +18,7 @@ Day.locale("sv");
 // GLOBAL VARIABLES ---------------
 
 /** Interval at which to generate and send newsletters */
-const CRON_INTERVAL = "30 8 * * *";
+const CRON_INTERVAL = "30 7 * * *";
 
 /** Newsfeed to use for predictions */
 const RSS_NEWS_FEED = "http://www.svt.se/nyheter/rss.xml";

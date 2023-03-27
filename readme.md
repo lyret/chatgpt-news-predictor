@@ -15,7 +15,7 @@ It works the following way
 - ChatGPT responds with news headlines for tomorrow
 - Newsletter subscribers are fetched from published google spreadsheet document and emailed
 
-This is run as a CRON job 08:30 AM everyday.
+This is run as a CRON job 07:30 AM everyday.
 
 ## Usage
 
