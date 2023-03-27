@@ -75,7 +75,8 @@ async function generateNews(prompt) {
     .map((t) => t.substring(2));
 
   if (!newsStories.length) {
-    return generateNews();
+    log("Got a bad response, trying again!");
+    return await generateNews(prompt);
   }
   return newsStories;
 }
