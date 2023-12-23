@@ -199,6 +199,14 @@ program
     createAndSendNewsletter();
   });
 
+// Sends an email to subscribers immidiatly
+program
+  .command("now")
+  .description("Generate and send a newsletter immidiatly to all subscribers")
+  .action((email) => {
+    createAndSendNewsletter();
+  });
+
 // Starts the server
 program
   .command("start", { isDefault: true })
